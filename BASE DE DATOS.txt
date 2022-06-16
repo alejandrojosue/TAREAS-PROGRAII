@@ -1,0 +1,55 @@
+CREATE TABLE [dbo].[Productos] (
+    [ProductoID]  INT          IDENTITY (1, 1) NOT NULL,
+    [Codigo]      VARCHAR (50) NOT NULL,
+    [Nombre]      VARCHAR (50) NOT NULL,
+    [Precio]      DECIMAL      NOT NULL,
+    [Stock]       INT          NOT NULL,
+    CONSTRAINT [PK_Productos] PRIMARY KEY CLUSTERED ([ProductoID] ASC)
+);
+
+CREATE TABLE [dbo].[Clientes] (
+    [ClienteID]    INT 	        IDENTITY (1, 1) NOT NULL,
+    [Identidad]    VARCHAR (13) NOT NULL,
+    [Nombre]       VARCHAR (50) NOT NULL,
+    [FechaIngreso] DATETIME     NOT NULL,
+    [Categoria]    VARCHAR (12) NOT NULL,
+    CONSTRAINT [PK_Clientes] PRIMARY KEY CLUSTERED ([ClienteID] ASC)
+);
+
+
+CREATE TABLE [dbo].[Empleados] (
+    [EmpleadoID]   INT          IDENTITY (1, 1) NOT NULL,
+    [Codigo]       VARCHAR (13) NOT NULL,
+    [Nombre]       VARCHAR (50) NOT NULL,
+    [FechaIngreso] DATETIME     NOT NULL,
+    [Puesto]       VARCHAR (12) NOT NULL,
+    CONSTRAINT [PK_Empleados] PRIMARY KEY CLUSTERED ([EmpleadoID] ASC)
+);
+
+CREATE TABLE [dbo].[Facturas] (
+    [FacturaID]    INT          NOT NULL,
+    [EmpleadoID]   INT          NOT NULL,
+    [ClienteID]    INT 	        NOT NULL,
+    [FechaIngreso] DATETIME     NOT NULL,
+    [SubTotal]     DECIMAL      NOT NULL,
+    [ISV]          DECIMAL      NOT NULL,
+    [Descuento]    DECIMAL      NOT NULL,
+    [TotalPagar]   DECIMAL      NOT NULL,
+    CONSTRAINT [PK_Facturas] PRIMARY KEY CLUSTERED ([FacturaID] ASC),
+    CONSTRAINT [FK_Facturas_Empleados] FOREIGN KEY ([EmpleadoID]) REFERENCES [dbo].[Empleados] ([EmpleadoID]),
+    CONSTRAINT [FK_Facturas_Clientes] FOREIGN KEY ([ClienteID]) REFERENCES [dbo].[Clientes] ([ClienteID])
+);
+
+
+CREATE TABLE [dbo].[DetallesFactura] (
+    [DetalleFacturaID] INT          IDENTITY (1, 1) NOT NULL,
+    [FacturaID]        INT          NOT NULL,
+    [ProductoID]       INT          NOT NULL,
+    [Nombre]           VARCHAR (50) NOT NULL,
+    [Precio]           DECIMAL      NOT NULL,
+    [Cantidad]         INT          NOT NULL,
+    [SubTotal]         DECIMAL      NOT NULL
+    CONSTRAINT [PK_DetallesFactura] PRIMARY KEY CLUSTERED ([DetalleFacturaID] ASC, [FacturaID] ASC, [ProductoID] ASC),
+    CONSTRAINT [FK_DetallesFactura_Facturas] FOREIGN KEY ([FacturaID]) REFERENCES [dbo].[Facturas] ([FacturaID]),
+    CONSTRAINT [FK_DetallesFactura_Productos] FOREIGN KEY ([ProductoID]) REFERENCES [dbo].[Productos] ([ProductoID])
+);

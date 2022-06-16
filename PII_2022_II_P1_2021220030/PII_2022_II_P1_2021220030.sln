@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PII_2022_II_P1_2021220030", "PII_2022_II_P1_2021220030\PII_2022_II_P1_2021220030.csproj", "{1DB39894-4507-4130-B833-EDD403046E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conexion", "conexion\conexion.csproj", "{20DB9420-91C4-41EC-9289-C91C4045FC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB39894-4507-4130-B833-EDD403046E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB39894-4507-4130-B833-EDD403046E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB39894-4507-4130-B833-EDD403046E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB39894-4507-4130-B833-EDD403046E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DB9420-91C4-41EC-9289-C91C4045FC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DB9420-91C4-41EC-9289-C91C4045FC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DB9420-91C4-41EC-9289-C91C4045FC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DB9420-91C4-41EC-9289-C91C4045FC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3B7F20D-C98F-4ABF-92C5-81922390979B}
+	EndGlobalSection
+EndGlobal
