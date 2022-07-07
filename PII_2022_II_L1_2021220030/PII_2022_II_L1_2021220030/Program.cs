@@ -275,7 +275,7 @@ namespace PII_2022_II_L1_2021220030
             if (personasMensual != null)
             {
                 Random rdn = new Random();
-                int numAleatorio = rdn.Next(0, 100);
+                int numAleatorio = rdn.Next(0, 3);
                 WriteLine($"Numero Ganador: {numAleatorio}");
                 WriteLine("Ganador de los L. 10000:");
                 WriteLine(personasMensual.getGanador(numAleatorio));
