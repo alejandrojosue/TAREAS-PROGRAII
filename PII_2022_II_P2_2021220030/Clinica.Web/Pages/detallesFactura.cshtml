@@ -1,0 +1,46 @@
+﻿@page
+@using Packt.Shared;
+@model Clinica.Web.Pages.detallesFacturaModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="row">
+	<h2 class="display-4">Detalles Factura</h2>
+	<table class="table">
+		<thead class="thead-inverse">
+			<tr>
+				<th>ID</th>
+				<th>Facturas ID</th>
+				<th>Servicios ID</th>
+			</tr>
+		</thead>
+		<tbody>
+			@if(Model.Detalles is not null)
+			{
+				@foreach(DetallesFactura c in Model.Detalles)
+				{
+					<tr>
+						<td>@c.DetallesFacturaId</td>
+						<td>@c.FacturasId</td>
+						<td>@c.ServiciosId</td>
+					</tr>
+				}
+			}
+		</tbody>
+	</table>
+</div>
+
+<div class="row">
+	<p></p>
+	<form method="post" class="form-control w-50 mx-auto p-2">
+		
+		<h3 class="text-center">Ingrese los detalles para el nuevo detalle Factura:</h3>
+		<div class="container d-flex flex-column mx-auto">
+			<br />
+			<input asp-for="Detalle.FacturasId" placeholder="Factura ID" class="form-control"/>
+			<br />
+			<input asp-for="Detalle.ServiciosId" placeholder="Servicio ID" class="form-control"/>
+			<br />
+			
+			<input class="btn btn-success w-50 mx-auto" type="submit" value="Guardar"/>
+		</div>
+	</form>
+</div>

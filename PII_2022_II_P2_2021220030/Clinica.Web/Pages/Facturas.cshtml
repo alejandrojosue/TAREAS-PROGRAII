@@ -1,0 +1,65 @@
+﻿@page
+@using Packt.Shared;
+@model Clinica.Web.Pages.FacturasModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="row">
+	<h2 class="display-4">Facturas</h2>
+	<table class="table">
+		<thead class="thead-inverse">
+			<tr>
+				<th>ID</th>
+				<th>Cliente ID</th>
+				<th>Fecha</th>
+				<th>Subtotal</th>
+				<th>ISV</th>
+				<th>Descuento</th>
+				<th>Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			@if(Model.Facturas is not null)
+			{
+				@foreach(Factura c in Model.Facturas)
+				{
+					<tr>
+						<td>@c.FacturasId</td>
+						<td>@c.ClientesId</td>
+						<td>@c.Fecha</td>
+						<td>@c.Subtotal</td>
+						<td>@c.Isv</td>
+						<td>@c.Descuento</td>
+						<td>@c.Total</td>
+					</tr>
+				}
+			}
+		</tbody>
+	</table>
+</div>
+
+<div class="row">
+	<p></p>
+	<form method="post" class="form-control w-50 mx-auto p-2">
+		
+		<h3 class="text-center">Ingrese los detalles para la nueva Factura:</h3>
+		<div class="container d-flex flex-column mx-auto">
+			<br />
+			<input type="number" asp-for="Factura.ClientesId" placeholder="Cliente ID" class="form-control"/>
+			<br />
+			
+			<br />
+			<input asp-for="Factura.Fecha" placeholder="Fecha" class="form-control" value=@DateTime.Now/>
+			<br />
+			<br />
+			<input type="number" asp-for="Factura.Subtotal" placeholder="Subtotal" class="form-control"/>
+			<br />
+			<input type="number" asp-for="Factura.Isv" placeholder="ISV" class="form-control"/>
+			<br />
+			<input type="number" asp-for="Factura.Descuento" placeholder="Descuento" class="form-control"/>
+			<br />
+			<input type="number" asp-for="Factura.Total" placeholder="Total" class="form-control"/>
+
+			<br />
+			<input class="btn btn-success w-50 mx-auto" type="submit" value="Guardar"/>
+		</div>
+	</form>
+</div>

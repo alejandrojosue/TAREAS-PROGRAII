@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "P1l28klXItTl9vIAWF8+bCDeaaAQOO2FlKSsNQEweJ4=",
+  "Source": "Clinica.Web",
+  "BasePath": "_content/Clinica.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Clinica.Web\\wwwroot",
+      "Source": "Clinica.Web",
+      "ContentRoot": "C:\\Users\\Dell Latitude 3400\\OneDrive\\Documentos\\UJCV - 2022\\II - PAC\\TAREAS\\PROG II\\PII_2022_II_P2_2021220030\\Clinica.Web\\wwwroot\\",
+      "BasePath": "_content/Clinica.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dell Latitude 3400\\OneDrive\\Documentos\\UJCV - 2022\\II - PAC\\TAREAS\\PROG II\\PII_2022_II_P2_2021220030\\Clinica.Web\\wwwroot\\Index.cshtml",
+      "SourceId": "Clinica.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell Latitude 3400\\OneDrive\\Documentos\\UJCV - 2022\\II - PAC\\TAREAS\\PROG II\\PII_2022_II_P2_2021220030\\Clinica.Web\\wwwroot\\",
+      "BasePath": "_content/Clinica.Web",
+      "RelativePath": "Index.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\Index.cshtml"
+    },
+    {
+      "Identity": "C:\\Users\\Dell Latitude 3400\\OneDrive\\Documentos\\UJCV - 2022\\II - PAC\\TAREAS\\PROG II\\PII_2022_II_P2_2021220030\\Clinica.Web\\wwwroot\\Index.cshtml.cs",
+      "SourceId": "Clinica.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell Latitude 3400\\OneDrive\\Documentos\\UJCV - 2022\\II - PAC\\TAREAS\\PROG II\\PII_2022_II_P2_2021220030\\Clinica.Web\\wwwroot\\",
+      "BasePath": "_content/Clinica.Web",
+      "RelativePath": "Index.cshtml.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.cshtml.cs"
+    }
+  ]
+}
