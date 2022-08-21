@@ -1,0 +1,90 @@
+CLIENTES
+{
+    "nombre": "Leonardo",
+    "apellido": "Morales",
+    "direccion": "Colonia Los Almendros",
+    "telefono": "2772-3255",
+    "identidad": "0301200101093",
+    "fechanac": "2022-08-18T23:27:00"
+}
+
+{
+    "idCliente": 5,
+    "nombre": "Leonardo",
+    "apellido": "Morales",
+    "direccion": "Colonia Los Almendros",
+    "telefono": "2772-3255",
+    "identidad": "0301200101093",
+    "fechanac": "2022-08-18T23:27:00"
+}
+
+==================================================================
+CARGOS
+{
+    "nombre": "Piloto"
+  }
+
+{
+    "idCargo": 5,
+    "nombre": "Piloto"
+  }
+
+==================================================================
+AVIONES
+{
+  "capacidad": 100,
+  "longitud": "21mts",
+  "envergadura": "10mts",
+  "velocidad": "300m/s",
+  "compania": "MAP",
+  "numero": 1003,
+  "fechadquisicion": "2022-08-20T14:39:00"
+}
+
+{
+  "idAvion": 4,
+  "capacidad": 60,
+  "longitud": "21mts",
+  "envergadura": "10mts",
+  "velocidad": "300m/s",
+  "compania": "MAP",
+  "numero": 1002,
+  "fechadquisicion": "2022-08-20T14:39:00"
+}
+
+==================================================================
+USUARIOS
+
+{
+    "nombre": "Benito",
+    "apellido": "Suárez",
+    "usuario1": "benito",
+    "clave": "copcake",
+    "idCargo": 1,
+    "direccion": "Colonia Los Geranios",
+    "telefono": "2772-3632"
+  }
+==================================================================
+VUELOS
+
+{
+    "horariosalida": "2022-08-09T20:18:00",
+    "horariollegada": "2022-08-09T23:19:00",
+    "origen": "Honduras",
+    "destino": "Suiza",
+    "idAvion": 1,
+    "idPiloto": 3
+  }
+
+==================================================================
+RESERVACIONES
+{
+    "idCliente": 2,
+    "idVuelo": 8,
+    "numeroAsiento": 1,
+    "fecha": "2022-08-09T20:20:00",
+    "precio": 4500,
+    "isv": 0,
+    "descuento": 0,
+    "total": 4500
+  }

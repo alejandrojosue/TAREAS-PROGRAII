@@ -1,0 +1,14 @@
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\bin\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.deps.json
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\bin\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.runtimeconfig.json
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\bin\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.dll
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\bin\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.pdb
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.AssemblyInfo.cs
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.dll
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\refint\Aeropuerto.Common.EntityModels.SqlServer.dll
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.pdb
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\Aeropuerto.Common.EntityModels.SqlServer.genruntimeconfig.cache
+C:\Users\Dell Latitude 3400\OneDrive\Escritorio\PII_2022_II_P3_2021220030\Aeropuerto.Common.EntityModels.SqlServer\obj\Debug\net6.0\ref\Aeropuerto.Common.EntityModels.SqlServer.dll

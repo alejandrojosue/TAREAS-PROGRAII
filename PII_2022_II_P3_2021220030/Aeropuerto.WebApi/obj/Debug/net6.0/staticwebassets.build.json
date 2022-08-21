@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MQsQFIF7dhB1dLIN3LmbReAn30d+S8otNmedjsIsCBo=",
+  "Source": "Aeropuerto.WebApi",
+  "BasePath": "_content/Aeropuerto.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
